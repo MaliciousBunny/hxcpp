@@ -32,6 +32,6 @@ class Progress
       while ((spaces.length + progress.length) < 6)
          spaces += " ";
 
-      return "\x1b[1m[\x1b[0m" + spaces + "\x1b[33;1m" + progress + "\x1b[0m\x1b[1m]\x1b[0m";
+      return "\x1b[1m[\x1b[0m" + spaces + "\x1b[34;1m" + progress + "\x1b[0m\x1b[1m]\x1b[0m";
    }
 }

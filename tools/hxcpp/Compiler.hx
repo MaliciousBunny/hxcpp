@@ -403,11 +403,11 @@ class Compiler
             if (split.length > 1)
             {
                fileName = split.slice(0, split.length - 1).join("/") + "/";
-               fileName = "\x1b[33m" + fileName + "\x1b[33;1m" + split[split.length - 1] + "\x1b[0m";
+               fileName = "\x1b[34m" + fileName + "\x1b[34;1m" + split[split.length - 1] + "\x1b[0m";
             }
             else
             {
-               fileName = "\x1b[33;1m" + fileName + "\x1b[0m";
+               fileName = "\x1b[34;1m" + fileName + "\x1b[0m";
             }
 
             var output = "";
